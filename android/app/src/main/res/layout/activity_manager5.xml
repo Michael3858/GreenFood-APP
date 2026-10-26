@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4E1"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".manager5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="請選擇要新增的特色:"
+            android:textColor="#444444"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="風格:"
+            android:textColor="#444444"
+            android:textSize="25sp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/add1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增"
+            android:textSize="20dp"
+            android:backgroundTint="#009FCC"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="付款方式:"
+            android:textColor="#444444"
+            android:textSize="25sp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/add2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增"
+            android:textSize="20dp"
+            android:backgroundTint="#009FCC"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="食材:"
+            android:textColor="#444444"
+            android:textSize="25sp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="來源:"
+            android:textColor="#444444"
+            android:textSize="25sp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/add3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增"
+            android:textSize="20dp"
+            android:backgroundTint="#009FCC"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一頁"
+            android:textSize="20dp"
+            android:backgroundTint="#DEB887"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

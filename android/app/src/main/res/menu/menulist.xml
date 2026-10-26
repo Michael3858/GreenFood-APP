@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="資訊"
+        android:id="@+id/info"
+        android:icon="@drawable/info">
+
+    </item>
+
+    <item android:title="評論"
+        android:id="@+id/comment"
+        android:icon="@drawable/comment">
+
+    </item>
+
+</menu>
